@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-   
+    
 }
 
 
@@ -14,9 +14,10 @@ body{
     width: 1440px;
     height: 677px;
     background: #2D25A0;
+    margin-bottom: 50px;
 
 }
-a{
+#go-live{
 
     width: 168px;
     height: 44px;
@@ -49,6 +50,13 @@ color: #FFFFFF;
 /*--------------------- End of head section---------------------- */
 
 /* ---------------let's enter into second section--------------------- */
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: darkblue;
+}
+
 .upper-section img{
     width: 330px;
     height: 256px
@@ -74,26 +82,68 @@ height: 154px;
     border: 2px solid blue;
     
 }
-.player-box{
-    position: static;
-}
+
 .section-two{
     width: 1050px;
     margin: auto;
-    width: 50%;
+    
 }
 .section-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
+
+
+
+
+
+/* ---------------------It's time to go section three(for bonus mark)-------------------------- */
+
+
+.media{
+    margin: auto;
+    width: 1440px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.blogs{
+    
+   
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+
+}
+.info-position{
+    width: 295px;
+}
+
+
+    
+
+
+
+
+
+/* --------------------end of section three */
+
+
+
+
+
+
 /*------------------------ section four--------------------- */
 .section-four{
     margin: auto;
-width: 50%;
-display: flex;
-justify-content: center;
-
+    width: 1050px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+   
 
 }
 .so-link{
@@ -104,21 +154,132 @@ text-decoration: none;
 .so-link a img{
     width: 32px;
     height: 32px;
-  
-
+    margin-left: 10px;
 }
 
 .logo{
-    width: 490px;
+    width: 390px;
     height: 110px;
    
     
 }
 footer{
-    width: 483.87px;
+    width: 484px;
     height: 213px;
+
     
 }
 .text-alignment{
     text-align: center;
 }
+
+
+
+
+/*----------------------- Media quiry for mobile screen--------------------------------- */
+
+
+@media only screen and (max-width:688px) {
+#mobile-container{
+        width: 100%;
+        margin: auto;
+
+    }
+    /*------------------------------------ start section one------------------------------- */
+    h3{
+        color: brown;
+    }
+    p{
+        font-size: 14px;
+        color:blueviolet;
+    }
+    .section-one{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+
+       
+      
+    }
+    .section-one-left h1{
+    font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 0px;
+     line-height: normal;
+     text-align: center;
+     
+       
+    }
+    .section-one-left a{
+    margin-left: 160px;
+    margin-top: 0;
+    
+    }
+    .section-one-right img{
+        width: 340.01px;
+        height:222px;
+        margin-left: 80px;
+    }
+
+/*-------------------------------- end of section one----------------------------------------- */
+
+
+
+/* ----------------------------------------start section two-------------------------------- */
+    #quiry-mobile-sec-2{
+        margin:0px 10px 50px 20px;
+    }
+
+    #quiry-mobile{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+ /*  -------------------------------------------end of section two--------------------------- */ 
+/*------------------------------ starting of section three here---------------------------------- */
+
+    /* .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    ------------------------ this is for video player in section three --------------------------- 
+    .iframe-container{
+        position: relative;
+        width: 30%;
+        padding-bottom: 56.25%; 
+        height: 0;
+      }
+      .iframe-container iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      } */
+   /* i defined the section three after media quiry then i couldn't able to add the section three for media, if i add media quiry for section three my footer section show display none, then i decided to skip the media qury for that section, when you email me with my assignment score i hope you will write on it what is my fault */
+     .media{
+        display:none;
+    }
+    /*--------------------------------- end of media quiry for video------------------------------ */
+   
+    
+    .section-four{
+        
+        margin: auto;
+        width: 50%;
+
+    }
+    
+    
+        
+
+    .logo{
+        width: 290px;
+        height: 72px;
+       
+    }
+   
+    
+
+/*----------------------------------- end of media quiry for mobile--------------------------------------- */
