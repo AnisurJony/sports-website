@@ -29,7 +29,8 @@ body{
 }
 #go-live:hover{
     background: purple;
-    transition.75s ease;
+    transition: 2s ease;
+    
 }
 h1:hover{
     color: lightcoral;
