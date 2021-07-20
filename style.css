@@ -198,7 +198,7 @@ footer{
 #mobile-container{
         width: 100%;
         margin: auto;
-
+overflow-x: hidden;
     }
     /*------------------------------------ start section one------------------------------- */
     h3{
